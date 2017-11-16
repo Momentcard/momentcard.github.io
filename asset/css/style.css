@@ -1,0 +1,103 @@
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.banner .banner-text {
+    color: #ffffff;
+    position: absolute;
+    left: 320px;
+    top: 200px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+section.intro .intro-text {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+section.intro .intro-text .intro-lead-in {
+    color: #366D95;
+}
+
+
+
+section#momentcardintro {
+    background-color: #212529;
+    background-image: url("../img/sectionmomentcard.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 532px;
+}
+
+section#momentcardintro .card {
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-left:20px;
+    padding-right: 114px;
+    padding-bottom: 60px;
+}
+
+section#momentcardintro .card .momentcardintro-title {
+    margin-bottom: 12px;
+    color: #366D95;
+}
+
+section#momentcardintro .card .momentcardintro-description {
+    margin-bottom: 60px;
+}
+
+
+
+
+
+section#momentboxintro {
+    background-color: #212529;
+    background-image: url("../img/sectionmomentbox.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 532px;
+}
+
+section#momentboxintro .card {
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 114px;
+    padding-bottom: 60px;
+}
+
+section#momentboxintro .card .momentboxintro-title {
+    margin-bottom: 12px;
+    color: #366D95;
+}
+
+section#momentboxintro .card .momentboxintro-description {
+    margin-bottom: 60px;
+}
+
+
+
+
+
+footer {
+padding: 32px;
+text-align: center;
+}
