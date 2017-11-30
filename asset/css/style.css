@@ -22,9 +22,11 @@ p {
     color: #ffffff;
     position: absolute;
     left: 320px;
-    top: 200px;
+    right:320px;
+    top: 270px;
     text-align: center;
     margin-top: 40px;
+
 }
 
 section.intro .intro-text {
@@ -46,6 +48,14 @@ section#momentcardintro {
     background-position: center;
     height: 532px;
 }
+
+section#aboutus-A {
+    background-color: #212529;
+    background-image: url("../img/aboutus_A.png");
+    background-repeat: no-repeat;
+    height: 425px;
+}
+
 
 section#momentcardintro .card {
     margin-top: 100px;
@@ -94,7 +104,12 @@ section#momentboxintro .card .momentboxintro-description {
 }
 
 
-
+section#contact {
+padding: 32px;
+text-align: center;
+background-color:#589FBF;
+color:#ffffff;
+}
 
 
 footer {
