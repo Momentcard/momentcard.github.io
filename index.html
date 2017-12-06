@@ -11,10 +11,17 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto|Roboto+Slab:400,700" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/nav.css">
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-fixed-top main-nav">
+    <nav class="navbar navbar-momento navbar-expand-md navbar-fixed-top" >
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button>
         <div class="container">
             <div class="navbar-collapse collapse nav-content order-2">
                 <ul class="nav navbar-nav">
@@ -29,7 +36,7 @@
             <ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2">
                 <li class="nav-item">
                     <a class="navbar-brand" href="index.html">
-                        <img src="asset/img/momentoicon.png" alt="">
+                        <img src="asset/img/momentoicon.png" alt="" id="momentologo">
                     </a>
                 </li>
                 <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target=".nav-content" aria-expanded="false" aria-label="Toggle navigation">
