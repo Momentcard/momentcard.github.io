@@ -1,0 +1,43 @@
+.processimg {
+    width: 144px;
+    height:144px;
+}
+
+.process .process-item{
+    width:160px;
+    margin-top:32px;
+    margin-bottom: 32px;
+}
+.process .process-item .subtitle{
+margin-top:40px;
+}
+
+section#momentboxfeature1 .localgood-img{
+background-image: url("../img/img_momentbox_section1.png");
+background-size: 740px;
+
+
+height: 532px;
+}
+
+section#momentboxfeature1 .localgood-text {
+    background-color: #589FBF;
+    background-size: 740px;
+    height: 532px;
+    color: white;
+    padding: 120px 80px;
+}
+
+section#momentboxfeature2 .localgood-img {
+    background-image: url("../img/img_momentbox_section2.png");
+    background-size: 740px;
+    height: 532px;
+}
+
+section#momentboxfeature2 .localgood-text {
+    background-color: #CEEBF2;
+    background-size: 740px;
+    height: 532px;
+    color: #262626;
+    padding: 120px 80px;
+}

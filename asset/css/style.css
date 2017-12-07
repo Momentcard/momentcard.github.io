@@ -6,6 +6,7 @@ h1 {
 h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
+    margin: 0;
 }
 
 h3 {
@@ -13,32 +14,51 @@ h3 {
     font-size: 24px;
 }
 
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    margin: 0;
 }
 
 
-
-
-.banner .banner-text {
+.bannerone{
+    background-image: url("../img/bannerimg.png");
+    width:1440px;
+    height:600px;
     color: #ffffff;
-    position: absolute;
-    left: 320px;
-    right:320px;
-    top: 270px;
-    text-align: center;
-    margin-top: 40px;
+    /* text-align: center; */
+}
 
+.bannertext{
+    text-align: center;
+
+
+    margin: auto;
+    padding:120px;
+
+}
+
+.momentboxbanner{
+    background-image: url("../img/momentboxbanner.png");
+    width:1440px;
+    height:600px;
+    color: #4481A6;
+    padding-left:160px;
+    padding-top:360px;
 }
 
 
 
 .container-banner {
-    background-image: url("../img/momentoabout.jpg" );
+    background-image: url("../img/momentoabout.jpg");
     padding-top: 100px;
     padding-bottom: 100px;
-
 }
 
 section.intro .intro-text {
@@ -51,8 +71,6 @@ section.intro .intro-text .intro-lead-in {
     color: #366D95;
 }
 
-
-
 section#momentcardintro {
     background-color: #212529;
     background-image: url("../img/sectionmomentcard.png");
@@ -61,7 +79,6 @@ section#momentcardintro {
     height: 532px;
 }
 
-
 section#aboutus-A {
     background-color: #212529;
     background-image: url("../img/aboutus_A.png");
@@ -69,27 +86,27 @@ section#aboutus-A {
     height: 425px;
 }
 
-
 section#momentcardintro .card {
     margin-top: 100px;
     padding-top: 60px;
-    padding-left:20px;
-    padding-right: 114px;
+    padding-left: 40px;
+    padding-right: 80px;
     padding-bottom: 60px;
 }
 
 section#momentcardintro .card .momentcardintro-title {
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     color: #366D95;
 }
 
-section#momentcardintro .card .momentcardintro-description {
-    margin-bottom: 60px;
+section#momentcardintro .card .momentboxintro-subtitle {
+    margin-bottom: 16px;
+    color: #828282;
 }
 
-
-
-
+section#momentcardintro .card .momentcardintro-description {
+    margin-bottom: 32px;
+}
 
 section#momentboxintro {
     background-color: #212529;
@@ -100,34 +117,64 @@ section#momentboxintro {
 }
 
 section#momentboxintro .card {
-    margin-top: 100px;
+    margin-top: 80px;
     padding-top: 60px;
-    padding-left: 20px;
-    padding-right: 114px;
+    padding-left: 40px;
+    padding-right: 60px;
     padding-bottom: 60px;
 }
 
 section#momentboxintro .card .momentboxintro-title {
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     color: #366D95;
 }
-
+section#momentboxintro .card .momentboxintro-subtitle {
+    margin-bottom: 16px;
+    color: #828282;
+}
 section#momentboxintro .card .momentboxintro-description {
-    margin-bottom: 60px;
+    margin-bottom: 32px;
 }
 
+.btn {
+    width: 120px;
+}
+
+section#download {
+    padding-top: 100px;
+}
+
+section#download .download-title {
+    color: #366D95;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section#download .dowload-description {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#available-img {
+    display: block;
+    height: 60px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
 
 section#contact {
-padding: 32px;
-text-align: center;
-background-color:#589FBF;
-color:#ffffff;
+    padding: 32px;
+    text-align: center;
+    background-color: #589FBF;
+    color: #ffffff;
 }
-
 
 footer {
-padding: 32px;
-text-align: center;
-background-color:#589FBF;
-color:#ffffff;
+    padding: 32px;
+    text-align: center;
+    background-color: #589FBF;
+    color: #ffffff;
 }
+

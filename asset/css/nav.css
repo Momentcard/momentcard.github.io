@@ -1,12 +1,15 @@
 .navbar-momento .navbar-nav .nav-link {
-    color: #323232;
+    color: #4481A6;
 }
 
 .navbar-momento .navbar-nav .nav-link:focus,
 .navbar-momento .navbar-nav .nav-link:hover {
-    color: red;
+    color: #366D95;
 }
 
+.navbar-momento .navbar-nav .nav-link:active{
+    color: #323232;
+}
 #momentologo {
 height:60px;
 }
