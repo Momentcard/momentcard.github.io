@@ -21,6 +21,8 @@ p {
 
 
 
+
+
 .banner .banner-text {
     color: #ffffff;
     position: absolute;
@@ -30,6 +32,16 @@ p {
     text-align: center;
     margin-top: 40px;
 
+}
+
+.create-text {
+    color: #ffffff;
+    position: absolute;
+    left: 60px;
+    right: 320px;
+    top: 220px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 
