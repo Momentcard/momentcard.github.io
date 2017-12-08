@@ -27,10 +27,12 @@ p {
 }
 
 
+
 .bannerone{
     background-image: url("../img/bannerimg.png");
     width:1440px;
     height:600px;
+
     color: #ffffff;
     /* text-align: center; */
 }
@@ -49,6 +51,25 @@ p {
     color: #4481A6;
     padding-left:160px;
     padding-top:360px;
+}
+
+.momentcardbanner {
+    background-image: url("../img/momentcardinitial.png");
+    width: 1440px;
+    height: 532px;
+    color: rgb(255, 255, 255);
+    padding-left: 160px;
+    padding-top: 200px;
+}
+
+.create-text {
+    color: #ffffff;
+    position: absolute;
+    left: 60px;
+    right: 320px;
+    top: 220px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 
@@ -75,6 +96,16 @@ section#momentcardintro {
     background-repeat: no-repeat;
     background-position: center;
     height: 532px;
+}
+
+    section#momentcardfeature1 {
+    background-color: #366D95;
+    background-image: url("../img/momentcard-A.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 512px;
+    width: 743px;
+
 }
 
 section#aboutus-A {
