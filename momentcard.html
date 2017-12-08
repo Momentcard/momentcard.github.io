@@ -11,10 +11,17 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto|Roboto+Slab:400,700" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/nav.css">
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-fixed-top main-nav">
+    <nav class="navbar navbar-momento navbar-expand-md navbar-fixed-top">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
         <div class="container">
             <div class="navbar-collapse collapse nav-content order-2">
                 <ul class="nav navbar-nav">
@@ -29,11 +36,11 @@
             <ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2">
                 <li class="nav-item">
                     <a class="navbar-brand" href="index.html">
-                        <img src="asset/img/momentoicon.png" alt="">
+                        <img src="asset/img/momentoicon.png" alt="" id="momentologo">
                     </a>
                 </li>
                 <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target=".nav-content" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
             </ul>
 
@@ -51,19 +58,15 @@
         </div>
     </nav>
 
-
-
     <!-- Header -->
 
 
-    <div class="banner">
-        <div class="create-text">
-            <h1 class="text-left">Create your <h1 class="text-left"> travel postcard
-                <h1 class="text-left"><b>anytime, anywhere </b></h1>
-            </h1></h1>
-
-        </div>
-        <img src="asset/img/momentcardinitial.png" class="img-fluid">
+     <div class="momentcardbanner">
+    <div class="momentboxcardtext">
+        <h1>Create your travel </h1>
+        <h1>postcard anytime, </h1>
+        <h1>  anywhere</h1>
+    </div>
 
     </div>
 
@@ -72,24 +75,24 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">
-                    <h1 class="text-center">About momentcard</h1>
+                    <h1 class="text-center">About Momentcard</h1>
                 </div>
 
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 process-item">
 
             <img src="asset/img/icn_camera.png" class="img-fluid">
             <p> Step 1: Take a picture of the moment you feel like sharing.</p>
 
             </div>
 
-            <div class="col-3">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 process-item">
 
                 <img src="asset/img/icn_change img.png" class="img-fluid">
                 <p> Step 2: Add filters, stickers and some emojis. Send us one line description of who this is for, what is the moment and their address.</p>
         </div>
 
-    <div class="col-3">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-12 process-item">
 
         <img src="asset/img/icn_send out.png" class="img-fluid">
         <p> Step 3: We’ll take it from here. Wait to hear from your excited friend within the next day!</p>
@@ -98,37 +101,30 @@
         </div>
     </section>
 
-    <section id="momentcardintro">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
+    <section id="momentcardfeature1">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-6 order-lg-2 localgood-img">
+
                 </div>
-                <div class="card col-6">
-                    <div class="momentcardintro-title">
-                        <h2>Choose the <b>exact</b> moment you captured</h2>
-                    </div>
-                    <div class="momentcardintro-description">
-                        <p>Our service allows you to capture those little moments that are hard to describe in words. You can send your loved ones a postcard with a picture clicked by YOU, customize it with stickers and filters and share it in the fastest
-                            way possible. By sending a postcard, we also help preserve that human touch as a physical artifact which can be stored in a story to tell and a memory that won’t be forgotten. </p>
-                    </div>
-                    <button type="button" class="btn btn-outline-primary">Learn more</button>
+
+                <div class="col-lg-6 order-lg-1 localgood-text">
+                    <h2>Choose the exact moment you captured</h2>
+
+                    <p>Our service allows you to capture those little moments that are hard to describe in words. You can send your loved ones a postcard with a picture clicked by YOU, customize it with stickers and filters and share it in the fastest way possible. By sending a postcard, we also help preserve that human touch as a physical artifact which can be stored in a story to tell and a memory that won’t be forgotten.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="momentboxintro">
-        <div class="container">
-            <div class="row">
-                <div class="card col-6">
-                    <div class="momentboxintro-title">
-                        <h2>Send a <b>handwritten</b> postcard signed by you </h2>
-                    </div>
-                    <div class="momentcardintro-description">
-                        <p>An additional feature we can offer is adding your own custom signature to the card. You can either attach a photo of your signature and we’ll make sure to put it on or you can electronically send us a little signature to use. If
-                            you’d like, we’ll even make sure that the note is handwritten in a beautiful calligraphic style.</p>
-                    </div>
-                    <button type="button" class="btn btn-outline-primary">Learn more</button>
+    <section id="momentcardfeature2">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-6 localgood-img"></div>
+                <div class="col-lg-6 localgood-text">
+                    <h2>Send a handwritten postcard </h2>
+                    <h2>signed by you</h2>
+                    <p>An additional feature we can is adding your own custom signature to the card. You can either attach a photo of your signature and we’ll make sure to put it on or you can electronically send us a little signature to use. If you’d like, we’ll even make sure that the note is handwritten in a beautiful calligraphic style.</p>
                 </div>
             </div>
         </div>
