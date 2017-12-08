@@ -1,0 +1,18 @@
+#contactbody .contact-img{
+background-image: url("../img/contactimage.png");
+    background-size: 740px;
+    height: 459px;
+}
+
+#contactbody .contact-form{
+    padding-left: 80px;
+    padding-right:80px;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+#contactbody .contact-text{
+    margin-top:40px;
+    margin-left:60px;
+    width:300px;
+}
